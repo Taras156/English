@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*Фон сайта*/
+    background-color: #ffe2b0;
+}
+
+.div1 {
+    display: inline;
+}
+
+
+/*Название учителя*/
+.name2 {
+    margin: 0px;
+    display: inline;
+    font-size: 100%;
+}
+
+
+nav {
+    /*Отступ от навигации вниз на 20px*/
+    margin-bottom: 20px;
+}
+
+a {
+    /* color - Цвет текста*/
+    color: black;
+
+    /*text-decoration -меняет стиль ссылки
+    (пример зачеркнутая подчеркнуя и без ничего)*/
+    text-decoration: none;
+
+    /*меняет размер теста*/
+    font-size: 18px;
+
+}
+
+ul {
+    /*list-style-type указывает вид маркера для элементов списка*/
+    list-style-type: none;
+
+    /*text-align - выравнивание в любом месте сайта*/
+    text-align: center;
+
+    /*Отступы внутри*/
+    padding: 0px;
+}
+
+
+
+
+/*При навидение на ссылки ссылка будет отображаться красным*/
+a:hover {
+    color: red;
+}
+
+/*фон для сайта главная*/
+.section-about {
+    /*Высота фона 640px*/
+    height: 640px;
+    background: url('../img/phone.jpg') center/cover no-repeat;
+
+    padding-top: 200px;
+
+    /*отступ от главного вкладки вниз*/
+    margin-bottom: 60px;
+}
+
+.name1 {
+    width: 90%;
+    height: 350px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+    position: absolute;
+    top: 200px;
+    left: 5%;
+}
+
+.name1_1 {
+    width: 90%;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 17px;
+    padding: 17px 0 0 28px;
+}
+
+.name1_2 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+/*Расписание--------------------------------------------------------------------------------*/
+/*Фон под все расписание*/
+.schedule_1 {
+    width: 100%;
+    height: 800px;
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    margin-bottom: 70px;
+
+}
+
+.lesson1 {
+    margin: 0;
+    padding-top: 40px;
+    margin-bottom: 60px;
+
+}
+
+.lesson1_1 {
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.table1 {
+    font-size: 25px;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+tr,
+td {
+    font-weight: bold;
+    background-color: red;
+    padding: 15px 35px;
+    color: #fff;
+
+}
+
+td {
+    background-color: #D26E2B;
+}
+
+td,
+tr {
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    border-color: #fff;
+}
+
+/*Расписание--------------------------------------------------------------------------------*/
+
+/*Информация об учителе----------------------------------------------------------------------*/
+.teacher {
+    width: 100%;
+    height: 2000px;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #cea177 74%);
+    padding-top: 20px;
+    padding-left: 1%;
+    margin-bottom: 40px;
+}
+
+
+
+.teacher1_1 {
+    font-size: 55px;
+    margin: 0px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+/*иконка учителя*/
+.teacher2_1 {
+    /*Длина иконки*/
+    width: 400px;
+    /*Высота иконки*/
+    height: 600px;
+    margin: 0px;
+    margin-left: 25px;
+    margin-right: 50px;
+    float: left;
+}
+
+.teacher__text1_1 {
+    float: left;
+}
+
+.teacher__text1_1_1,
+.teacher__text1_1_3,
+.teacher__text1_1_5,
+.teacher__text1_1_7,
+.teacher__text1_1_9,
+.teacher__text1_1_11 {
+    font-size: 40px;
+}
+
+.teacher__text1_1_2,
+.teacher__text1_1_4,
+.teacher__text1_1_6,
+.teacher__text1_1_8,
+.teacher__text1_1_10,
+.teacher__text1_1_12,
+.teacher__text1_1_13,
+.teacher__text1_1_14,
+.teacher__text1_1_15,
+.teacher__text1_1_17 {
+    font-size: 25px;
+}
+
+/*Информация об учителе----------------------------------------------------------------------*/
+
+
+/*Галерея------------------------------------------------------------------------------------------*/
+
+.photo {
+    width: 100%;
+    height: 10000px;
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    margin-bottom: 20px;
+}
+
+.photo_text {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5 {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/*Галерея------------------------------------------------------------------------------------------*/
+.map_text {
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.map_text {
+    margin: 0px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding-left: 25px;
+}
+
+.map__text_1 {
+    margin: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.map__text_2,
+.map__text_3,
+.map__text_4,
+.map__text_5 {
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.br1 {
+    height: 2px;
+    background-color: black;
+}
+
+.title_text {
+    width: 100%;
+    height: 100px;
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+
+.title1,
+.title2,
+.title3,
+.tl1,
+.tl2,
+.tl3 {
+    margin: 0px;
+    float: left;
+}
+
+.title1 {
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+.title2 {
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.title3 {
+    font-size: 25px;
+}
